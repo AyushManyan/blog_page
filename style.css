@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(1 ,fr);
+    height: 20%;
+}
+#sub{
+    font-size: 50%;
+    padding: 5%;
+}
+
+#Blog{
+    font-size: 120%;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    font-family: monospace,sans-serif;
+}
+.icon{
+    display: grid;
+    justify-content: right;
+    padding-bottom: 7%;
+}
+
+.content{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 1.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.box{
+    border: 3px solid gray;
+    background-color: aqua;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+.inside{
+    padding-top: 2%;
+    padding-left: 4%;
+    font-weight: lighter;
+}
+p{
+    font-size: 80%;
+    color: #888;
+    font-weight: 100;
+}
